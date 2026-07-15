@@ -4,17 +4,37 @@
 
 核心目标不是做旅游明信片，也不是堆地标，而是让地域文化变成可识别的结构、材料、空间和字形关系。
 
-## 图例
+## 精选实例
 
-以下图例从本地生成批次 `D:\Codex_Outputs\exports\regional-20-text-removal-culture-image2` 中随机挑选，并压缩为 README 示例图。
+以下图例来自本地生成批次 `D:\Codex_Outputs\exports\regional-20-text-removal-culture-image2`，包含随机样例和人工勾选样例。
 
-| 昆明 | 长沙 | 沈阳 |
+| 苏州 | 西安 | 成都 |
 |---|---|---|
-| ![昆明](assets/examples/kunming.jpg) | ![长沙](assets/examples/changsha.jpg) | ![沈阳](assets/examples/shenyang.jpg) |
+| ![苏州](assets/examples/suzhou.jpg) | ![西安](assets/examples/xian.jpg) | ![成都](assets/examples/chengdu.jpg) |
 
-| 贵阳 | 乌鲁木齐 | 上海 |
+| 北京 | 长沙 | 大理 |
 |---|---|---|
-| ![贵阳](assets/examples/guiyang.jpg) | ![乌鲁木齐](assets/examples/urumqi.jpg) | ![上海](assets/examples/shanghai.jpg) |
+| ![北京](assets/examples/beijing.jpg) | ![长沙](assets/examples/changsha.jpg) | ![大理](assets/examples/dali.jpg) |
+
+| 大连 | 重庆 | 佛山 |
+|---|---|---|
+| ![大连](assets/examples/dalian.jpg) | ![重庆](assets/examples/chongqing.jpg) | ![佛山](assets/examples/foshan.jpg) |
+
+| 桂林 | 杭州 | 呼和浩特 |
+|---|---|---|
+| ![桂林](assets/examples/guilin.jpg) | ![杭州](assets/examples/hangzhou.jpg) | ![呼和浩特](assets/examples/hohhot.jpg) |
+
+| 嘉兴红船 | 景德镇 | 绍兴 |
+|---|---|---|
+| ![嘉兴红船](assets/examples/jiaxing-redboat.jpg) | ![景德镇](assets/examples/jingdezhen.jpg) | ![绍兴](assets/examples/shaoxing.jpg) |
+
+| 沈阳 | 昆明 | 贵阳 |
+|---|---|---|
+| ![沈阳](assets/examples/shenyang.jpg) | ![昆明](assets/examples/kunming.jpg) | ![贵阳](assets/examples/guiyang.jpg) |
+
+| 乌鲁木齐 | 上海 |
+|---|---|
+| ![乌鲁木齐](assets/examples/urumqi.jpg) | ![上海](assets/examples/shanghai.jpg) |
 
 ## 适合做什么
 
