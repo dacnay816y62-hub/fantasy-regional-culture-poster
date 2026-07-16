@@ -1,5 +1,13 @@
 # Regional Culture Poster
 
+![Version](https://img.shields.io/badge/version-v0.1.0-blue)
+![Skill](https://img.shields.io/badge/skill-regional--culture--poster-6f42c1)
+![Codex](https://img.shields.io/badge/Codex-supported-2ea44f)
+![GPT Image 2](https://img.shields.io/badge/GPT%20Image%202-supported-00a3ff)
+![Mode A](https://img.shields.io/badge/Mode%20A-structural%20character-orange)
+![Mode B](https://img.shields.io/badge/Mode%20B-editorial%20poster-teal)
+![Direct Generation](https://img.shields.io/badge/direct%20generation-preferred-brightgreen)
+
 ## Current update
 
 MODE B now includes the boundary-restraint and typography-diversity patch: editorial city posters should use restrained regional text/image boundaries, return the lower boundary to straight or orthogonal order, and vary the main Chinese title through structural Song, humanist Song, inscription/architectural, or modern display skeletons instead of repeating one generic font treatment.
