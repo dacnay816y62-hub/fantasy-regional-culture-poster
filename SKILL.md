@@ -13,13 +13,18 @@ Anti-rustic calibration: keep the single-character spatial collision, but make i
 
 Text-removal recognition calibration: the poster must not rely on the printed city name to carry the region. If the city label, theme line, and keywords were covered, the image should still contain at least one culturally specific and visually legible mechanism that points to the place: a distinctive building typology, craft process, climate behavior, street-life pattern, material system, water/terrain condition, ritual order, food/tool/workshop logic, or historical spatial structure. Generic modern materials such as glass, concrete, bridge, skyline, water reflection, and fog may support the design but cannot be the primary cultural evidence by themselves.
 
+Two-mode calibration:
+
+- **MODE A / structural character poster**: the Chinese character is the main visual body. City structures grow into the glyph through masking, negative space, material transition, and spatial cuts. Use this when the user wants 大字、造字、城市字体、字形实验、一个主字、直接图像生成, or the current single-character series direction.
+- **MODE B / regional editorial poster**: the city image is the main subject, and the city name is an editorial anchor rather than the whole image container. Use this when the user wants stronger editorial feeling, richer text hierarchy, cultural research poster, magazine-like city poster, clearer cultural explanation, or says the big-character masking approach is too forced, too empty, too illegible, or too dependent on one huge glyph. Read [mode-b-editorial.md](references/mode-b-editorial.md) before planning or rendering MODE B.
+
 ## Route the request
 
 Determine the requested stopping point:
 
 1. **Strategy only**: deliver candidate research, direction selection, and the analysis card.
 2. **Prompt package**: deliver strategy plus production-ready image prompts and typography directions.
-3. **Direct rendered poster**: generate the complete flattened poster, including imagery, dominant character, exact copy, masking, and layout, in one image-model call. Prefer this when a capable image model is available or the user asks for direct generation, one-shot output, no compositing, or no post-production.
+3. **Direct rendered poster**: generate the complete flattened poster, including imagery, dominant character or editorial title, exact copy, masking, and layout, in one image-model call. Prefer this when a capable image model is available or the user asks for direct generation, one-shot output, no compositing, or no post-production.
 4. **Layered rendered poster**: generate a visual foundation, add deterministic Chinese typography, reconnect image and type, then export. Use this when copy accuracy is contract-critical or direct generation repeatedly fails the text gate.
 5. **Batch series**: plan all regions first, run global deduplication, then render the series in one locked render mode.
 
@@ -38,6 +43,7 @@ Use supplied constraints. Otherwise apply these defaults:
 - supporting English: optional and subordinate
 - sentence and 3-5 keywords: included unless the user asks for a text-free image
 - render mode: prefer `direct` with a capable image model; use `layered` for copy-critical work or when explicitly requested
+- visual mode: infer MODE A or MODE B from the user's taste feedback; default to MODE A for “城市字体 / 大字 / 造字”, and MODE B for “编辑感 / 杂志感 / 城市文化研究 / 图文丰富 / 不要只有大字”
 
 For missing noncritical details, proceed with defaults. Ask only when the region itself is ambiguous enough to materially change the result.
 
@@ -118,6 +124,8 @@ Avoid:
 - dense explanatory copy, cartoon rendering, and fixed templates that only swap names
 
 Read [visual-system.md](references/visual-system.md) before writing the final art direction or rendering.
+
+For MODE B, read [mode-b-editorial.md](references/mode-b-editorial.md) and follow its city-image-first workflow. MODE B must not silently fall back to the giant-character mask system.
 
 ### 5. Output the planning layer
 

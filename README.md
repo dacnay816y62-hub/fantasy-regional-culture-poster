@@ -48,6 +48,18 @@
 
 ## 设计原则
 
+## 两种模式
+
+### MODE A：结构造字海报
+
+汉字结构是主视觉。城市元素参与字形生长，适合“城市字体 / 大字 / 造字 / 一个主字”的方向。
+
+### MODE B：地域编辑海报
+
+城市空间是主视觉，城市名是编辑锚点。适合“杂志感 / 城市文化研究 / 图文丰富 / 不要只有大字”的方向。
+
+MODE B 不把整张照片裁进大字里，而是先判断城市文化，再推导空间原型、裁切边界、图文比例和地域化字体细节。
+
 ### 1. 一个主字作为视觉骨架
 
 优先使用一个地域凝练字，例如：
@@ -178,6 +190,7 @@ regional-culture-poster/
 - `references/cultural-analysis.md`：文化分析维度与反刻板印象
 - `references/visual-system.md`：构图、字形、材料、色彩、禁忌
 - `references/direct-generation.md`：直接生成模式的 prompt 结构
+- `references/mode-b-editorial.md`：地域编辑海报模式，适合杂志感、图文层级和城市文化研究方向
 - `references/production.md`：生产模式选择
 - `references/series-and-examples.md`：系列化去重与案例逻辑
 
