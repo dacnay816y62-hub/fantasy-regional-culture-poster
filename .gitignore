@@ -1,0 +1,38 @@
+# Local environment and credentials
+.env
+.env.*
+*.key
+*.pem
+*.p12
+*.pfx
+*.token
+*secret*
+*credential*
+
+# Local outputs and temporary working files
+outputs/
+output/
+exports/
+drafts/
+temp/
+tmp/
+cache/
+garden-gpt-image-2/
+
+# OS / editor noise
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+
+# Logs and local diagnostics
+*.log
+*.tmp
+*.bak
+
+# Accidental chat / messenger / screenshot dumps
+WeChat Files/
+FileStorage/
+codex-clipboard-*
+wxid_*
