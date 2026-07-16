@@ -1,5 +1,9 @@
 # Regional Culture Poster
 
+## Current update
+
+MODE B now includes the boundary-restraint and typography-diversity patch: editorial city posters should use restrained regional text/image boundaries, return the lower boundary to straight or orthogonal order, and vary the main Chinese title through structural Song, humanist Song, inscription/architectural, or modern display skeletons instead of repeating one generic font treatment.
+
 一个用于生成中国地域文化海报的 Codex Skill。它把省份、城市、县域、古城或文化区域转译成“一个主字 + 一个地方文化机制 + 一个克制版式系统”的当代视觉海报。
 
 核心目标不是做旅游明信片，也不是堆地标，而是让地域文化变成可识别的结构、材料、空间和字形关系。
@@ -58,7 +62,7 @@
 
 城市空间是主视觉，城市名是编辑锚点。适合“杂志感 / 城市文化研究 / 图文丰富 / 不要只有大字”的方向。
 
-MODE B 不把整张照片裁进大字里，而是先判断城市文化，再推导空间原型、裁切边界、图文比例和地域化字体细节。
+MODE B 不把整张照片裁进大字里，而是先判断城市文化，再推导空间原型、裁切边界、图文比例和地域化字体细节。新版 MODE B 额外强化边界克制与主标题字体骨架差异。
 
 ### 1. 一个主字作为视觉骨架
 
@@ -190,7 +194,7 @@ regional-culture-poster/
 - `references/cultural-analysis.md`：文化分析维度与反刻板印象
 - `references/visual-system.md`：构图、字形、材料、色彩、禁忌
 - `references/direct-generation.md`：直接生成模式的 prompt 结构
-- `references/mode-b-editorial.md`：地域编辑海报模式，适合杂志感、图文层级和城市文化研究方向
+- `references/mode-b-editorial.md`：地域编辑海报模式，适合杂志感、图文层级、城市文化研究、边界克制和地域字体多样化方向
 - `references/production.md`：生产模式选择
 - `references/series-and-examples.md`：系列化去重与案例逻辑
 
