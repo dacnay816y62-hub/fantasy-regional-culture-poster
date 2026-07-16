@@ -77,7 +77,7 @@ Use masks, clipping, partial occlusion, stroke breaks, and material overlays to 
 
 ### Layer 5: export
 
-Export a high-resolution final plus a review preview. Keep working files in `D:\Codex_Outputs\drafts` or `temp`, and final output in `D:\Codex_Outputs\exports`.
+Export a high-resolution final plus a review preview. Keep working files in the active project or host-provided output directory. For shared or public workflows, avoid hard-coded personal paths, drive letters, temporary chat folders, or private workspace locations.
 
 ## Quality control
 

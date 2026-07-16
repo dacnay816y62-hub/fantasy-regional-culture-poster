@@ -124,9 +124,9 @@ Chinese, no mockup frame. Vertical 2:3.
 
 1. Complete global cultural and visual deduplication before rendering.
 2. Lock one render mode for the whole series.
-3. With GPT Image 2 Mode A, use `1024x1536`, `quality=high`, `background=opaque`, and PNG output.
-4. Use two concurrent generations by default. Reduce to one if the gateway returns rate limits or transient upstream errors.
-5. Save each rendered prompt beside the series drafts and each direct PNG in a distinct final-export directory.
+3. Use the active host image-generation tool or model. A typical vertical output is `1024x1536` or any equivalent 2:3 / 3:4 high-quality PNG.
+4. Use limited concurrency only when the active provider supports it. Reduce to one if the provider returns rate limits or transient upstream errors.
+5. Save each rendered prompt beside the series drafts and each direct PNG in a distinct final-export directory chosen by the active host environment.
 6. Inspect the dominant character and all exact-copy lines in every image. Regenerate only failed entries; do not composite repairs into a direct series.
 
 ## Proven structural patterns

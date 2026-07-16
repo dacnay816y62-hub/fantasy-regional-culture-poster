@@ -169,12 +169,14 @@ For rendered posters:
 4. If the user explicitly asks for direct generation, fix failed glyphs or copy by regenerating the whole image. Do not repair it through compositing unless the user authorizes a mode change.
 5. Inspect every exported image at full size and thumbnail size.
 
-Save generated assets by default to:
+Save generated assets according to the active host environment or the user's explicit output path.
+For public or shared use, do not assume a Windows drive, personal directory, or private workspace path.
+If no output location is provided, choose a local project-relative output directory such as:
 
-- images: `D:\Codex_Outputs\images`
-- drafts: `D:\Codex_Outputs\drafts`
-- temporary files: `D:\Codex_Outputs\temp`
-- final exports: `D:\Codex_Outputs\exports`
+- images: `./outputs/images`
+- drafts: `./outputs/drafts`
+- temporary files: `./outputs/temp`
+- final exports: `./outputs/exports`
 
 ### 7. Validate before delivery
 
