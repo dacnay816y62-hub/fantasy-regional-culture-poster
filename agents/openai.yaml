@@ -1,4 +1,4 @@
 interface:
-  display_name: "中国地域文化极简大字海报"
-  short_description: "将省份、城市与文化区域转译为克制高级的当代大字海报"
-  default_prompt: "Use $regional-culture-poster to create a restrained contemporary Chinese regional culture poster with one culturally transformed dominant character."
+  display_name: "地域文化海报"
+  short_description: "将省份、城市与文化区域转译为克制当代的地域文化海报，避免旅游宣传和地标拼贴"
+  default_prompt: "Use $regional-culture-poster to create a restrained contemporary Chinese regional culture poster with culturally grounded typography and visual structure."
