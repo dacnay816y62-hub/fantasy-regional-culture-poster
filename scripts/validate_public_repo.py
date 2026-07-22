@@ -31,7 +31,7 @@ SENSITIVE_PATTERNS = [
     re.compile("api" + r"\.schyler", re.IGNORECASE),
     re.compile("Hi" + "Win11", re.IGNORECASE),
     re.compile("wxid" + "_", re.IGNORECASE),
-    re.compile("WeChat" + " Files", re.IGNORECASE),
+    re.compile("We" + "Chat" + " " + "Files", re.IGNORECASE),
     re.compile("File" + "Storage", re.IGNORECASE),
 ]
 
